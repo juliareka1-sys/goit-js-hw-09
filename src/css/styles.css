@@ -59,3 +59,31 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+.feedback-form {
+  width: 360px;
+  margin: 24px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: start;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  width: 100%;
+}
+
+.feedback-form button {
+  width: 86px;
+  height: 40px;
+  background-color: #4E75FF;
+  color: #fafafa;
+  border-radius: 8px;
+}
