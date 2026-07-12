@@ -41,6 +41,8 @@ function submitHandler(event) {
         return;
   }
     console.log(formData);
+    formData.email = "";
+    formData.message = ""; 
     localStorage.removeItem(storageKey);
     form.reset();
 };
